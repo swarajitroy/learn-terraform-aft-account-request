@@ -12,19 +12,19 @@ variable "account-request-table-hash" {
 
 variable "control_tower_parameters" {
   type = object({
-    AccountEmail              = string
-    AccountName               = string
-    ManagedOrganizationalUnit = string
-    SSOUserEmail              = string
-    SSOUserFirstName          = string
-    SSOUserLastName           = string
+    AccountEmail              = "ulearnuhelpawsaftworkloadaccou@gmail.com"
+    AccountName               = "sandbox-aft"
+    ManagedOrganizationalUnit = "workload"
+    SSOUserEmail              = "ulearnuhelpawsaftworkloadaccou@gmail.com"
+    SSOUserFirstName          = "vended"
+    SSOUserLastName           = "account"
   })
 }
 
 variable "change_management_parameters" {
   type = object({
-    change_requested_by = string
-    change_reason       = string
+    change_requested_by = "HashiCorp Learn"
+    change_reason       = "HashiCorp Learn"
   })
 }
 
